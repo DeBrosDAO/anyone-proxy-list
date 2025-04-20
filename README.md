@@ -10,23 +10,20 @@ This JSON file contains a list of SOCKS5 public proxies contributed by the ANyON
 
 ### Proxy List
 
-File: [anonproxies.json](https://raw.githubusercontent.com/DeBrosOfficial/ANyONe-Proxy-List/main/anonproxies.json)
+File: [anonproxies.json](https://git.debros.io/DeBros/anyone-proxy-list/raw/branch/main/anonproxies.json)
 
 The JSON structure includes:
 
 ```json
 [
-  {
-    "host": "proxy_address",
-    "port": "proxy_port"
-  }
-  // ... more proxy entries
+  {"host": "proxy_address", "port": proxy_port},
+    // ... more proxy entries
 ]
 ```
 
 ### Download
 
-<a href="https://github.com/DeBrosOfficial/ANyONe-Proxy-List/archive/refs/heads/main.zip" download="ANyONe-Proxy-List.zip">
+<a href="https://git.debros.io/DeBros/anyone-proxy-list/archive/main.zip" download="anyone-proxy-list.zip">
   <img src="https://img.shields.io/badge/Download-ZIP-blue.svg?style=for-the-badge" alt="[Download ZIP](https://x.com/i/grok?text=Download%20ZIP)">
 </a>
 
@@ -35,7 +32,7 @@ The JSON structure includes:
 - **Updates**: This list will be regularly updated with new contributions and to remove outdated or non-functional proxies.
 - **Contributions**: Anyone can contribute by adding new proxies or updating existing ones:
   - **To contribute**: Fork this repository, add your proxy to the `anonproxies.json` file, and submit a pull request.
-  - **For reporting issues**: If you find any proxy that doesn't work or needs updating, please open an issue on this GitHub repository.
+  - **For reporting issues**: If you find any proxy that doesn't work or needs updating, please open an issue on this repository.
 
 ### Disclaimer
 
